@@ -1,3 +1,12 @@
+Using the App
+=============
+
+Set Twitter account in screen_names.txt
+Run getUserTimeline.py to generate json file in output
+Note: this creates 2 lines (bug?) - delete the second line manually
+Run wordcloud.py to generate word cloud graphic
+
+
 Python Twitter Tools
 ====================
 
