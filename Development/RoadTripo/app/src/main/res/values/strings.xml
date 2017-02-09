@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RoadTripo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="places" />
+
+    <color name="kneeboard_blue">#4d6c96</color>
+     <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyA6eYoKwKS4On8M1AkxhkBFYZUn08eDSFI
+    </string>
+</resources>
