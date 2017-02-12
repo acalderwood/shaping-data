@@ -3,6 +3,7 @@ from ConfigParser import SafeConfigParser
 from pytagcloud import create_tag_image, make_tags
 from pytagcloud.lang.counter import get_tag_counts
 import webbrowser
+from pytagcloud.colors import COLOR_SCHEMES
 
 
 def convert(input):
@@ -38,6 +39,6 @@ for file in os.listdir(dir):
     total = len(all_reviews)
     print (total)
 
-tags = make_tags(get_tag_counts(all_reviews), maxsize=50)
+tags = make_tags(get_tag_counts(all_reviews), maxsize=50, colors= COLOR_SCHEMES['goldfish'])
 create_tag_image(tags, 'cloud_large.png', size=(900, 600), fontname='Lobster')
 webbrowser.open('cloud_large.png') # see results
