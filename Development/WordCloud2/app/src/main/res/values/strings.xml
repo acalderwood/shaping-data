@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">WordCloud</string>
+    <string-array name="cuisine_types">
+        <item>Indian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+        <item>Thai</item>
+        <item>Mexican</item>
+    </string-array>
 </resources>

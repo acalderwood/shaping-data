@@ -37,18 +37,17 @@
         android:layout_alignParentRight="true"
         android:layout_toRightOf="@+id/CuisineTypeLabel"
         android:layout_marginLeft="54dp" />
-
-    <EditText
+    <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="text"
         android:ems="10"
         android:id="@+id/CuisineTypeText"
+        android:entries="@array/cuisine_types"
         android:layout_alignBottom="@+id/CuisineTypeLabel"
         android:layout_alignRight="@+id/CityNameText"
-        android:layout_alignLeft="@+id/CityNameText" />
-
-    <Button
+        android:layout_alignLeft="@+id/CityNameText">
+    </Spinner>
+       <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SEARCH"
@@ -56,6 +55,7 @@
         android:layout_below="@+id/CuisineTypeText"
         android:layout_marginTop="34dp"
         android:layout_marginLeft="114dp"/>
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -63,5 +63,6 @@
         android:id="@+id/NotificationLabel"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>
