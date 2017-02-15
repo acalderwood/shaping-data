@@ -1,0 +1,16 @@
+branch-defaults:
+  default:
+    environment: null
+environment-defaults:
+  Sample-env:
+    branch: null
+    repository: null
+global:
+  application_name: WordCloud
+  branch: null
+  default_ec2_keyname: null
+  default_platform: python2.7
+  default_region: us-west-2
+  profile: eb-cli
+  repository: null
+  sc: null
