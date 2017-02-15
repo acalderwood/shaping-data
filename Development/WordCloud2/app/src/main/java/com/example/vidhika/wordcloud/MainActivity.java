@@ -5,25 +5,29 @@ package com.example.vidhika.wordcloud;
         import android.view.Menu;
         import android.view.MenuItem;
         import android.view.View;
-        import android.widget.Button;
+       import android.widget.AdapterView;
+       import android.widget.Button;
         import android.widget.EditText;
-        import android.widget.TextView;
+       import android.widget.Spinner;
+       import android.widget.TextView;
 
         import java.text.DecimalFormat;
 
 public class MainActivity extends Activity {
 
     Button myButton;
-    EditText cityName,cuisineType,notify;
+    EditText cityName,notify;
     TextView result;
+    Spinner cuisineType;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         cityName = (EditText)findViewById(R.id.CityNameText);
-        cuisineType = (EditText)findViewById(R.id.CuisineTypeText);
+        cuisineType = (Spinner)findViewById(R.id.CuisineTypeText);
         myButton = (Button)findViewById(R.id.button);
         notify = (EditText)findViewById(R.id.NotificationLabel);
         Button search = (Button)findViewById(R.id.button);
